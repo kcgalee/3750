@@ -58,12 +58,9 @@
     margin: 50px 10px;
 }
 
-#quote {
-    margin: 50 0 0 10px;
-}
-
-p {
+.gif p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 50px 0 0 0;
 }
 
 .news li {
