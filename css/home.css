@@ -26,7 +26,8 @@
     margin-top: 10px;
     border-radius: 20px;
     box-shadow: 0px 5px 5px #d4d4d4;
-    color: #325d96;
+    color: #9ea4ac;
+    
 }
 
 @media screen and (min-width:700px){
@@ -42,20 +43,29 @@
 
     .news {
         width: 50vh;
-        height: 92vh;
+        height: 79vh;
         background-color: #E6E9ED;
         border-radius: 20px;
         box-shadow: 0px 5px 5px #d4d4d4;
         margin-left: 20px;
+        padding: 3%;
     }
 
 }
 
 .gif {
     float: right;
-    margin: 20px;
+    margin: 50px 10px;
 }
 
 #quote {
-    margin: 0 0 0 80px;
+    margin: 50 0 0 10px;
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.news li {
+    list-style-type: circle;
 }

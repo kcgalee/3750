@@ -20,25 +20,54 @@
 
 .card {
     width: inherit;
-    height: 64vh;
+    height: 44vh;
     background-color: #E6E9ED;;
     margin-top: 10px;
     border-radius: 20px;
     box-shadow: 0px 5px 5px #d4d4d4;
+    padding: 5%;
+}
+
+.column {
+    width: 33%;
+    height: 53vh;
+    background-color: #E6E9ED;
+    margin: 10px 20px 0px 0px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px #d4d4d4;
+    padding: 3%;
 }
 
 @media screen and (min-width:700px){
     .sidebar {
         width: 70vh;
-        height: 64vh;
+        height: 44vh;
         background-color: #E6E9ED;
         border-radius: 20px;
         box-shadow: 0px 5px 5px #d4d4d4;
         margin: 10px 20px;
+        padding: 5%;
     }
 
 }
 
-table {
+table, th, td {
     border: 1px solid black;
+}
+
+table {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+th {
+    width: 30%;
+}
+
+.sidebar li {
+    list-style-type:circle;
+}
+#message {
+    height: 100px;
+    width: 100%;
 }
